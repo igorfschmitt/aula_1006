@@ -8,7 +8,7 @@
     <title>Document</title>
     <style>
         #app {
-            background-color:aquamarine;
+            background-color: aquamarine;
             width: 200px;
             height: 200px;
         }
@@ -20,7 +20,11 @@
 
     </div>
     <script>
-        console.log(document.querySelector('#app'));                            
+        var app = document.getElementById('app');
+        app.style.backgroundColor = "aqua";
+        app.style.width = "300px";
+        app.height = "150px";
+
     </script>
 </body>
 
